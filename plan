@@ -1,0 +1,23 @@
+here i will record all the plans while design
+
+1. i will change font to poppins or smth, probably put an image of my name there
+1. i will record 4 videos
+one will be me writting code in the dark, one will be me solving mathematics on paper
+one will be me editting a UI design and one will be sunset video i will ask someone to record
+
+
+1. i will have the same purple theme as always so i will do that
+
+1. and same background designs
+
+1. will be having a morph svg animation on button
+
+1. will make a loading screen
+
+will add more
+
+
+    {
+                backgroundColor: "#00000050",
+                backdropFilter: "blur(10px)", // it's "backdropFilter", not "backgroundFilter"
+             
