@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber";
 import React, { Suspense } from "react";
-
+import Axolotl from "../axolotl/axolotl";
 import { OrbitControls } from "@react-three/drei";
 
 const AxolotlModel = () => {

@@ -23,7 +23,7 @@ export const Experience = () => {
         minPolarAngle={Math.PI / 2}
         maxPolarAngle={Math.PI / 2}
       />
-      <group position-y={-4.5}>
+      <group position-y={-2}>
         {/* <Avatar animation={currentAnimation} onClick={handleAvatarClick} /> */}
         <ShouryaSharma animation={currentAnimation} onClick={handleAvatarClick} /> 
       </group>

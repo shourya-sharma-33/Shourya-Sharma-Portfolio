@@ -19,7 +19,7 @@ body {
   /* background-color: #fc93d0;  */ 
   /* color i like */
 
-  background-color: #dfb3cd;
+  background-color: black;
   font-family: "General Sans", sans-serif;
 }
 
@@ -88,7 +88,10 @@ body {
     @apply uppercase font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
   }
 
-  
+  .pyl{
+    margin-left: 200px;
+
+  }
   .transparent-button {
   background-color: rgba(30, 41, 59, 0.2); /* Tailwind slate-800 with opacity */
   backdrop-filter: blur(6px);
@@ -96,10 +99,14 @@ body {
   border-radius: 1rem;
   }
   .hero-background{
-    background-image: url('public/img/Frame 6.svg');
+    /* background-image: url('public/img/Frame 3.svg'); */
+  
+  background-image: 
+    linear-gradient(to top, black 0%, transparent 20%),
+    url('public/img/Frame 3.svg');
   background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-position: center;
+  background-size: cover;
 
   }
 .skill-background {

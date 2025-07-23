@@ -21,10 +21,12 @@ const Box = () => {
 
 const ThreePreview = () => {
   return (
+    <>
+    <div className="w-full">
     <div
-      className="flex justify-center items-center absolute"
+      className="flex justify-self-end items-center absolute"
       style={{
-        width: "100%",
+        width: "50%",
         height: "100%",
         overflow: "hidden",
         zIndex: "50",
@@ -39,6 +41,8 @@ const ThreePreview = () => {
         </Canvas>
       </div>
     </div>
+    </div>
+    </>
   );
 };
 

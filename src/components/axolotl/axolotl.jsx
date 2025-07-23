@@ -19,7 +19,7 @@ const Axolotl = () => {
       object={scene}
       position={[0, 0, 0]}
       rotation={[0, Math.PI, 0]}
-      scale={0.5}
+      scale={0.8}
     />
   );
 };

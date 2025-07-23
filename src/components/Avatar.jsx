@@ -35,7 +35,7 @@ export function ShouryaSharma(props) {
 
   return (
     <group {...props} ref={group} dispose={null} onClick={handleClick}>
-      <group rotation-x={-Math.PI / 2} rotation-z={Math.PI / 4} scale={3}>
+      <group rotation-x={-Math.PI / 2} rotation-z={Math.PI / 4} scale={1.5}>
         <primitive object={nodes.Hips} />
         <skinnedMesh geometry={nodes.Wolf3D_Hair.geometry} material={materials.Wolf3D_Hair} skeleton={nodes.Wolf3D_Hair.skeleton} />
         <skinnedMesh geometry={nodes.Wolf3D_Glasses.geometry} material={materials.Wolf3D_Glasses} skeleton={nodes.Wolf3D_Glasses.skeleton} />
