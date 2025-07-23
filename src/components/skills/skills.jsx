@@ -32,6 +32,7 @@ const SkillSection = ({ skills = [], title = "My Skills" }) => {
 
   return (
     <section
+    style={{backgroundImage: "/img/Frame 1.svg"}}
       className=" text-white pad-top-10 flex flex-col items-center section-skill"
       ref={sectionRef}
     >
