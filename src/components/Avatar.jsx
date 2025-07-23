@@ -5,7 +5,7 @@ import { SkeletonUtils } from 'three-stdlib'
 
 export function ShouryaSharma(props) {
   const group = useRef()
-  const { scene } = useGLTF('models/avatar.glb')
+  const { scene } = useGLTF('models/pinkav.glb')
   const clone = useMemo(() => SkeletonUtils.clone(scene), [scene])
   const { nodes, materials } = useGraph(clone)
 
