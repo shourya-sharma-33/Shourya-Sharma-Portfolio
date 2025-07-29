@@ -101,7 +101,7 @@ const Hero = () => {
               <div>
               <h1 className="w-[90%]   justify-self-center shourya-name special-font hero-heading linear-grad text-white max-sm:text-9xl ">
               <div className=" relative flex ">
-                SH<span className="text-pink-400">o</span>URYA 
+                mH<span className="text-pink-400">o</span>URYA 
                 <div className="inline h-full">
                  <div className="px-5 ">
               <div className="grid  ">
