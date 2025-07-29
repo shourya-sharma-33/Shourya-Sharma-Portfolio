@@ -67,12 +67,7 @@ const Hero = () => {
   return (
 <div
   className="relative h-dvh w-screen overflow-x-hidden"
-  style={{
-    backgroundImage: `linear-gradient(to top, black 0%, transparent 20%), url('/img/Frame 3.svg')`,
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
-  }}
+
 >
       <div
         id="video-frame"
@@ -139,7 +134,7 @@ const Hero = () => {
               </div>
               </div>
                 </div>
-                sjoxSNX
+                Sharma
                 </div>
                   <div className="grid px-10">
                 <span className=" text-xl font-circular-web justify-self-start"><span className="text-3xl text-purple-600">Hello ! </span>I am a full stack<span className="text-3xl text-pink-700"> web developer </span>

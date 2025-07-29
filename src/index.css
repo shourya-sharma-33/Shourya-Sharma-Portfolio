@@ -98,17 +98,17 @@ body {
  
   border-radius: 1rem;
   }
-  /* .hero-background{ */
+  .hero-background{
     /* background-image: url('public/img/Frame 3.svg'); */
   
-  /* background-image: 
+  background-image: 
     linear-gradient(to top, black 0%, transparent 20%),
-    url('public/img/Frame 3.svg');
+    url('/img/Frame 3.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
-  } */
+  }
 .skill-background {
   background-image: 
     linear-gradient(to bottom, black 0%, transparent 20%),
