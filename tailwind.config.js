@@ -26,6 +26,14 @@ export default {
           300: "#edff66",
         },
       },
+       screens: {
+      'sw1275': '1275px',    // @media (min-width: 640px)
+      'laptop': '1024px',   // @media (min-width: 1024px)
+      'desktop': '1280px',  // @media (min-width: 1280px)
+      // You can name them anything
+      'xs': '400px',        // custom breakpoint
+      '3xl': '1600px',      // custom large breakpoint
+    },
     },
   },
   plugins: [],
