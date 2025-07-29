@@ -65,7 +65,15 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative h-dvh w-screen overflow-x-hidden ">
+<div
+  className="relative h-dvh w-screen overflow-x-hidden"
+  style={{
+    backgroundImage: `linear-gradient(to top, black 0%, transparent 20%), url('public/img/Frame 3.svg')`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+  }}
+>
       <div
         id="video-frame"
         className="hero-background relative z-10 h-dvh w-screen overflow-hidden  bg-black"
@@ -101,7 +109,7 @@ const Hero = () => {
               <div>
               <h1 className="w-[90%]   justify-self-center shourya-name special-font hero-heading linear-grad text-white max-sm:text-9xl ">
               <div className=" relative flex ">
-                mH<span className="text-pink-400">o</span>URYA 
+                SH<span className="text-pink-400">o</span>URYA 
                 <div className="inline h-full">
                  <div className="px-5 ">
               <div className="grid  ">
