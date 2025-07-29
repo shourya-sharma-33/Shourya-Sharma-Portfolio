@@ -139,7 +139,7 @@ const Hero = () => {
               </div>
               </div>
                 </div>
-                sharma
+                sjoxSNX
                 </div>
                   <div className="grid px-10">
                 <span className=" text-xl font-circular-web justify-self-start"><span className="text-3xl text-purple-600">Hello ! </span>I am a full stack<span className="text-3xl text-pink-700"> web developer </span>
