@@ -68,7 +68,7 @@ const Hero = () => {
 <div
   className="relative h-dvh w-screen overflow-x-hidden"
   style={{
-    backgroundImage: `linear-gradient(to top, black 0%, transparent 20%), url('public/img/Frame 3.svg')`,
+    backgroundImage: `linear-gradient(to top, black 0%, transparent 20%), url('/img/Frame 3.svg')`,
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
