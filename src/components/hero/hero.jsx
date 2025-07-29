@@ -74,7 +74,7 @@ const Hero = () => {
         className=" hero-background relative z-10 h-dvh w-screen overflow-hidden  bg-black"
       >
         <div>
-        <div className="absolute left-0 top-0 size-full  max-sm:h-[60%] w-[40%] max-sm:top-[120px] ">
+        <div className="absolute left-0 top-0 size-full   w-[40%]  ">
            <Canvas className="max-[1080px]:hidden" style={{zIndex: "1000"}} shadows camera={{ position: [3, 3, 3], fov: 30 }}>
            <Experience/>
           </Canvas>
@@ -89,7 +89,7 @@ const Hero = () => {
           </p>
         </h1> */}
 
-        <div className="absolute left-0 top-0 z-40  size-full max-sm:top-[450px]">
+        <div className="absolute left-0 top-0 z-40  size-full ">
           <div className="mt-24 justify-self-center max-[1008px]:hidden">
             {/* <h1 className="justify-self-center shourya-name special-font hero-heading linear-grad text-white max-sm:text-9xl">
 
@@ -172,7 +172,7 @@ const Hero = () => {
            
             
           </div>
-          <div className=" mt-24 justify-self-start  p-10 min-[1008px]:hidden max-[640px]:mt-0 max-[640px]:px-2 max-sm:absolute max-sm:top-0">
+          <div className=" mt-24 justify-self-start  p-10 min-[1008px]:hidden max-[660px]:hidden ">
             {/* <h1 className="justify-self-center shourya-name special-font hero-heading linear-grad text-white max-sm:text-9xl">
 
               
@@ -184,7 +184,7 @@ const Hero = () => {
             <div className="h-[50%]  grid ">
 
               <div>
-              <h1 className=" shourya-name  hero-heading justify-center linear-grad text-white">
+              <h1 className="w-[90%] shourya-name  hero-heading justify-center linear-grad text-white">
               <div className="flex  flex-wrap">
               <div className="font-circular-web text-9xl max-sm:text-6xl"><span className="text-pink-400">S</span>H<span className="text-red-400">o</span><span className="text-green-400">u</span><span className="text-purple-400">r</span>ya</div>
                <div className="font-circular-web text-9xl max-sm:text-6xl"><span className="text-pink-400">S</span>harma </div>
@@ -212,6 +212,35 @@ const Hero = () => {
             
            
             
+          </div>
+          <div className="absolute p-3 top-24 min-[660px]:hidden text-white">
+<div className="h-[50%]  grid ">
+
+              <div>
+              <h1 className="w-[90%] shourya-name  hero-heading justify-center linear-grad text-white">
+              <div className="flex  flex-wrap">
+              <div className="font-circular-web text-9xl max-sm:text-7xl"><span className="text-pink-400">S</span>H<span className="text-red-400">o</span><span className="text-green-400">u</span><span className="text-purple-400">r</span>ya</div>
+               <div className="font-circular-web text-9xl max-sm:text-7xl"><span className="text-pink-400">S</span>harma </div>
+                
+                </div>
+                <p className="text-xl font-circular-web">
+                  <span className="text-xl font-circular-web justify-self-start"><span className="text-3xl text-purple-600">Hello ! </span>I am a full stack<span className="text-3xl text-pink-700"> web developer </span>
+                 , from <span className="text-2xl text-blue-700">designing</span> to a <span className="text-2xl text-purple-700">passionately crafted</span > front end web page to a <span className="text-2xl text-pink-700">working application</span> with <span className="text-2xl text-red-700">scalable backend</span> , i got you!!</span>
+              
+                </p>
+                
+             
+              
+            </h1>
+
+              </div>
+              
+
+              
+
+            
+            </div>
+
           </div>
           
           
